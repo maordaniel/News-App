@@ -1,0 +1,54 @@
+.container {
+    padding: 3%;
+}
+
+.SearchWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1%;
+}
+
+.SearchTextInput {
+    width: 50%;
+}
+
+.Articles {
+    display: block;
+    width: 100%;
+    position: relative;
+}
+
+.Article {
+    margin: 10px;
+    width: 18rem;
+    display: flex;
+    align-items: center;
+    float: left;
+    height: 450px;
+}
+
+.ArticleText {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 250px;
+}
+
+.ArticleImg {
+    width: 250px !important;
+    height: 160px;
+}
+
+.spinnerDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.ReadButton{
+    position: absolute;
+    bottom: 5%;
+}
