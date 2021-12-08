@@ -21,7 +21,6 @@ function ArticlePage(props) {
                     {props.article.author}
                 </p>
 
-
                 <p>
                     {props.article.description}
                 </p>

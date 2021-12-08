@@ -8,13 +8,11 @@ function SearchInput(props) {
             <div className="SearchTextInput">
                 <InputGroup className="mb-3">
                     <FormControl
+                        placeholder="Search"
                         aria-label="News"
                         aria-describedby="basic-addon2"
                         onChange={e => props.setSearchInput(e.target.value)}
                     />
-                    <Button variant="outline-secondary" id="button-addon2" onClick={props.handleInput}>
-                        Search
-                    </Button>
                 </InputGroup>
             </div>
 

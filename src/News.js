@@ -36,11 +36,6 @@ function News() {
         setCategory(e.target.value);
     };
 
-    //handle search input
-    const handleInput = () => {
-        console.log(searchInput);
-    };
-
     //get news
     const GetNews = () => {
         setIsLoading(true);
@@ -85,7 +80,7 @@ function News() {
 
     return (
         <div className="container">
-            <SearchInput setSearchInput={setSearchInput} handleChange={handleChange} handleInput={handleInput}/>
+            <SearchInput setSearchInput={setSearchInput} handleChange={handleChange}/>
             {isLoading ?
                 <div className="spinnerDiv">
                     <Spinner variant="primary" animation="border"
