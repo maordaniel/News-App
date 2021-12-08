@@ -96,7 +96,7 @@ function News() {
                     <h1>Something went wrong please try again later</h1>
                     :
                     <div>
-                        <Articles article={s} handleShow={handleShow}/>
+                        <Articles article={articles} handleShow={handleShow}/>
                         <ArticlePage show={show} article={article} handleClose={handleClose}/>
                     </div>
             }
