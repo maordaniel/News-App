@@ -22,7 +22,6 @@ function News() {
 
     const handleShow = (item) => {
         setShow(true);
-        console.log(item)
         setArticle(item);
     };
 
@@ -32,7 +31,6 @@ function News() {
 
     //handle radio buttons
     const handleChange = e => {
-        e.persist();
         setCategory(e.target.value);
     };
 
